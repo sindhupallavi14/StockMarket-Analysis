@@ -1,0 +1,122 @@
+body{  
+    background-color:rgb(28, 28, 57);
+    color: rgb(255, 255, 255); 
+}
+
+.vg {
+    background-color: rgb(48, 48, 104);
+    width:100%;
+    height:100%;
+}
+
+span{
+    color: green;
+
+}
+
+.vertical-line {
+    position: absolute;
+    border-left: 3px solid rgb(180, 132, 132);
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+#heading{
+    font-size: 2.8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.cont
+{
+    margin-top: 10px;
+    width:auto;
+    height:90vh;
+    display: flex;
+}
+
+#chart{
+    margin: 10px;  
+    width:50vw;
+    height:65%;
+}
+
+.chart-container {
+    position: relative; 
+}
+
+
+#details{
+    margin: 10px;  
+    width:53vw;
+    height:auto;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    padding: 20px;
+}
+#detail-heading
+{
+    display: flex;
+    gap: 40px;
+}
+
+.right
+{
+    margin-top:30px; 
+    margin-left:22%; 
+    width:20vw;
+    height:70%; 
+}
+
+#list{
+   width:100%;
+   height:100%;
+  
+}
+
+.stock-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(28, 28, 57);
+    color: #fff;
+}
+
+.stock-button {
+    background-color: rgb(36, 36, 131);
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70px;
+}
+
+.stock-button:hover {
+    background-color: rgb(28, 28, 90);
+}
+
+.stock-price, .stock-change {
+    font-size: 1rem;
+}
+
+.vertical-line {
+    position: absolute;
+    border-left: 3px solid rgb(180, 132, 132);
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.btn{
+    color:white;
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+    width:100px;
+    height: 50px;
+    
+}
+
